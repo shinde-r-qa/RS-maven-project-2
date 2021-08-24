@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="mysuite" parallel="classes" verbose="1" > 
+  <test name="mytests" >
+    <classes>
+       <class name="TestNGscripts.Alertbox" />
+       <class name="TestNGscripts.Dropdowns" />
+    </classes>
+  </test>
+    </suite>
